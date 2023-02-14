@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo {
+	text-align: center;
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: white;
+	
+	background-image: url("logo1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	background-size: 30% 100%;
+}
+
+.logo_header {
+	padding-top: 15%;
+	font-size: 50px;	
+}
+
+.logo_hr {
+	width: 30%;
+}
+
+.logo_text {
+	padding-top: 5%;
+	font-size: 20px;
+}
+
+.content {
+	position: absolute;
+	width: 70%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	text-align: left;
+	background-color: white;
+
+
+
+
+
+}
+
+.content_back {padding: 1% 10%;}
+
+.content_back a {text-decoration: none; color: #00a6fc;}
+
+.content_header {padding: 10% 10% 0;}
+
+.content_header h1 {
+	color: #00a6fc;
+	font-size: 50px
+}
+
+.content_header h2 {
+	color: #484848;
+	font-size: 25px;
+	font-weight: 100;
+	margin-top: -2%;
+
+}
+
+.content_text {
+	padding: 0 10%;
+	font-size: 20px;
+}
+
+.content_connect_buttons {
+	padding: 1% 10%;
+}
+
+.button_connect, .button_error {
+	padding: 10px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition: .2s;
+	transition-duration: .4s;
+}
+
+.button_connect {
+    border: solid #00a6fc;
+	color: white;
+	background-color: #00a6fc;
+
+}
+
+.button_connect:hover {
+	color: #00a6fc;
+	background-color: rgba(255,255,255,0.00);
+}
+
+.content_button_error {
+	float: right;
+	margin: 2% 10%;
+}
+
+.button_error {
+	color: white;
+	background-color: orangered;
+
+
+
+	
+	border: solid orangered;
+	box-shadow: 5px 5px 3px rgba(83,83,83,0.4);
+}
+
+.form {padding: 3% 10%;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.content_no_profile p {padding: 0 10%}
+
+.content_no_profile a {text-decoration: none; color: #00a6fc}
+
+.content_no_profile hr {width: 80%}
+

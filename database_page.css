@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button_error, .fill_form_button, .form_button {
+	padding: 10px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition: .2s;
+	transition-duration: .4s;
+
+
+}
+
+.page_button_error {
+	float: right;
+	margin: 2% 10%;
+}
+
+.button_error {
+	color: white;
+	background-color: orangered;
+	border: solid orangered;
+	box-shadow: 5px 5px 3px rgba(83,83,83,0.4);
+
+}
+
+.header_back {padding: 1% 10%;}
+
+.header_back a {color: #00a6fc; text-decoration: none}
+
+.header h1 {
+	color: #00a6fc;
+	padding: 2% 10% 0;
+	font-size: 50px;
+}
+
+.header p:not(.header_back) {
+	color: black;
+	padding: 0 10%;
+	font-size: 20px;
+	text-decoration: underline #00a6fc;
+}
+
+.buttons {
+	padding: 1% 10% 2%;
+}
+
+.buttons form input[type=text] {
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	font-size: 13px;
+
+	background-color: white;
+	background-image: url("searh.png");
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	background-size: 18px;
+	padding: 12px 10% 12px 40px;
+}
+
+.fill_form_button, .form_button {border-radius: 20px;}
+
+.fill_form_button {background-color: #00a6fc; border: solid #00a6fc; color: white}
+.fill_form_button:hover {background-color: rgba(255,255,255,0.00); border: solid #00a6fc; color: black}
+
+.form_button {background-color: rgba(255,255,255,0.00); border: solid #00a6fc; color: black}
+.form_button:hover {background-color: #00a6fc; border: solid #00a6fc; color: white}
+
+
+
+
+.table {
+	overflow-x: auto;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
+	background-color: gray;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  
+}
+
+tr{color: #001b36; background-color: white;}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+th {
+  background-color: #001b36;
+  color: white;
+}
