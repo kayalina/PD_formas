@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<link href="connect_page.css" rel="stylesheet" type="text/css">		
+	
+<title>2. forma</title>
+
+</head>
+
+<body>
+	<div class="logo">
+		<h1 class="logo_header">Esi sveicināts <br> ĶLUS</h1>
+		<hr class="logo_hr">
+		<p class="logo_text">Tavas laboratorijas uzskaites sistēma</p>
+	</div>
+
+	<div class="content">
+		<p class="content_back"><a href="index.html"> &larr; &nbsp;&nbsp;&nbsp; Atpakaļ uz sākamlapu </a></p>
+		
+		<div class="content_header">
+			<h1 >Pieslēgties</h1>
+			<h2>Ķīmijas laboratorijas uzskaites sistēmai</h2>
+		</div>
+		
+		<form class="form" action="/my-handling-form-page" method="post">
+			<label class="form_label" for="name">Lietotājvārds</label>
+			<br>
+			<input type="text" id="name" name="name" placeholder="Ievadīt lietotājvārdu" required>
+			<br><br>			
+			<label class="form_label" for="password">Parole</label>
+			<br>
+			<input type="password" id="password" name="password" placeholder="Ievadīt paroli" required>
+			<br><br>
+			<input class="button_connect" type="submit" value="Pieslēgties">
+		</form>
+		
+		<div class="content_no_profile">
+			<hr>
+			<p>Neesi vēl reģistrēts? <a href="">Izveidot profilu</a></p>
+		</div>
+		
+		<div>
+			<button class="content_button_error button_error">Ziņot par kļūdu</button>
+		</div>
+	</div>
+
+</body>
+</html>
